@@ -4,16 +4,16 @@ title: Hatem Nassrat
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1>Projects</h1>
+  <ul class="posts">
+    <li><a href="http://pykler.github.com/yajl-py/">Yajl-Py</a> is a pure python wrapper to the yajl C Library.</li>
+    <li><a href="http://pykler.github.com/MiniMockTest/">MiniMockTest</a> is a Python unittest TestCase that wraps minimock</li>
+  </ul>
+  <h1>Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
-  <h1>Projects</h1>
-  <ul class="posts">
-    <li><a href="http://pykler.github.com/yajl-py/">Yajl-Py</a></li>
-    <li><a href="http://pykler.github.com/MiniMockTest/">MiniMockTest</a></li>
-  </ul>
 </div>
