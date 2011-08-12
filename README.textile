@@ -1,4 +1,4 @@
-h1. This is the data for my blog
+h1. This is the data for my github site
 
 It is based on the site hosted at https://github.com/mojombo/mojombo.github.com
 
